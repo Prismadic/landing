@@ -8,63 +8,51 @@ export const siteConfig = {
 			label: "Home",
 			href: "/",
 		},
-    {
-      label: "Technology",
-      href: "/technology",
-    },
-    {
-      label: "Developers",
-      href: "/developers",
-    },
-    {
-      label: "Blog",
-      href: "https://prismadic.substack.com",
-    },
-    {
-      label: "About",
-      href: "/about",
-    }
+		{
+			label: "Technology",
+			href: "/technology",
+		},
+		{
+			label: "Developers",
+			href: "/developers",
+		},
+		{
+			label: "Blog",
+			href: "https://prismadic.substack.com",
+		},
+		{
+			label: "About",
+			href: "/about",
+		}
 	],
 	navMenuItems: [
 		{
-			label: "Profile",
-			href: "/profile",
+			label: "Home",
+			href: "/",
 		},
 		{
-			label: "Dashboard",
-			href: "/dashboard",
+			label: "Technology",
+			href: "/technology",
 		},
 		{
-			label: "Projects",
-			href: "/projects",
+			label: "Developers",
+			href: "/developers",
 		},
 		{
-			label: "Team",
-			href: "/team",
+			label: "Blog",
+			href: "https://prismadic.substack.com",
 		},
 		{
-			label: "Calendar",
-			href: "/calendar",
-		},
-		{
-			label: "Settings",
-			href: "/settings",
-		},
-		{
-			label: "Help & Feedback",
-			href: "/help-feedback",
-		},
-		{
-			label: "Logout",
-			href: "/logout",
-		},
+			label: "About",
+			href: "/about",
+		}
 	],
 	links: {
 		github: "https://github.com/Prismadic",
 		twitter: "https://twitter.com/Prismadic",
 		docs: "https://prismadic.ai/developers",
 		discord: "#",
-    	sponsor: "#",
+		sponsor: "#",
 		funnel: "https://dgtsapp.com"
 	},
 };
