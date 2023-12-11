@@ -5,9 +5,8 @@ import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Providers } from "./providers";
 import { Navbar } from "@/components/navbar";
-import { Link } from "@nextui-org/link";
 import { PrivacyPolicy } from "@/components/policy";
-import { Spacer } from "@nextui-org/react";
+import { Image } from "@nextui-org/react";
 
 import clsx from "clsx";
 
