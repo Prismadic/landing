@@ -37,14 +37,11 @@ export const Navbar = () => {
 	useEffect(() => {
 		const script = document.createElement('script');
 	
-		script.src = `<script type="text/javascript">
-		(function(c,l,a,r,i,t,y){
-			c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-			t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-			y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-		})(window, document, "clarity", "script", "k4azgwr8v9");
-	</script>`;
-		script.async = true;
+		script.innerText = `(function(c,l,a,r,i,t,y){
+							c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+							t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+							y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+						})(window, document, "clarity", "script", "k4azgwr8v9");`;
 	
 		document.body.appendChild(script);
 	
