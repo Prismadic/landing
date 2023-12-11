@@ -2,7 +2,7 @@
 
 Basic landing page in React/NextJS for brand recognition, funneling, business analytics.
 
-![build](https://github.com/PrismadicAI/landing/actions/workflows/node.js.yml/badge.svg)
+![build](https://github.com/Prismadic/landing/actions/workflows/node.js.yml/badge.svg)
 
 ## Technologies Used
 
