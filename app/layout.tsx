@@ -6,7 +6,6 @@ import { fontSans } from "@/config/fonts";
 import { Providers } from "./providers";
 import { Navbar } from "@/components/navbar";
 import { PrivacyPolicy } from "@/components/policy";
-import { Image } from "@nextui-org/react";
 
 import clsx from "clsx";
 
@@ -27,11 +26,13 @@ export const metadata: Metadata = {
 	},
 };
 
-export default function RootLayout({
+export default function RootLayout(
+	{
 	children,
 }: {
 	children: React.ReactNode;
 }) {
+	
 	return (
 		<html lang="en" suppressHydrationWarning>
 			<head />
