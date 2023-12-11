@@ -6,7 +6,7 @@ import { Card, CardBody, Image, Button } from "@nextui-org/react";
 
 import { FaGithubAlt } from "@react-icons/all-files/fa/FaGithubAlt";
 import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter";
-import {FaCode} from "@react-icons/all-files/fa/FACode";
+import {FaCode} from "@react-icons/all-files/fa/FaCode";
 
 // import { HeartIcon } from "./HeartIcon";
 // import { PauseCircleIcon } from "./PauseCircleIcon";
