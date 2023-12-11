@@ -14,6 +14,9 @@ import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter";
 // import { ShuffleIcon } from "./ShuffleIcon";
 export default function AboutPage() {
 	const [liked, setLiked] = React.useState(false);
+	const openInNewTab = (url: string | URL | undefined) => {
+		window.open(url, "_blank", "noreferrer");
+	  };
 	return (
 		<div className="flex flex-row">
 			<div className="basis-full">
@@ -45,14 +48,6 @@ export default function AboutPage() {
 										<p className="text-small text-foreground/80">Founder</p>
 										<h1 className="text-large font-medium mt-2">ML, Econ, Engineering</h1>
 									</div>
-									<Button
-										isIconOnly
-										className="text-default-900/60 data-[hover]:bg-foreground/10 -translate-y-2 translate-x-2"
-										radius="full"
-										variant="light"
-										onPress={() => setLiked((v) => !v)}
-									>
-									</Button>
 								</div>
 
 								<div className="flex flex-col mt-3 gap-1">
@@ -68,7 +63,7 @@ export default function AboutPage() {
 										className="data-[hover]:bg-foreground/10"
 										radius="full"
 										variant="light"
-										href="https://github.com/DylanAlloy"
+										onClick={() => openInNewTab("https://github.com/DylanAlloy")}
 									>
 										<FaGithubAlt size={20} />
 									</Button>
@@ -77,7 +72,7 @@ export default function AboutPage() {
 										className="w-auto h-auto data-[hover]:bg-foreground/10"
 										radius="full"
 										variant="light"
-										href="https://twitter.com/alloy2077"
+										onClick={() => openInNewTab("https://twitter.com/alloy2077")}
 									>
 										<FaTwitter size={20} />
 									</Button>
