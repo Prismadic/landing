@@ -18,7 +18,7 @@ export const siteConfig = {
     },
     {
       label: "Blog",
-      href: "/blog",
+      href: "https://prismadic.substack.com",
     },
     {
       label: "About",
