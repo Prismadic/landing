@@ -11,6 +11,8 @@ import { Button } from "@nextui-org/button";
 import { Kbd } from "@nextui-org/kbd";
 import { Link } from "@nextui-org/link";
 import { Input } from "@nextui-org/input";
+import { FaTree } from "@react-icons/all-files/fa/FaTree";
+import { FaUserCheck } from "@react-icons/all-files/fa/FaUserCheck";
 
 import { link as linkStyles } from "@nextui-org/theme";
 
@@ -95,17 +97,29 @@ export const Navbar = () => {
 					</Link>
 					<ThemeSwitch />
 				</NavbarItem>
-				<NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem>
+				{/* <NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem> */}
+				<NavbarItem className="hidden md:flex">
+					<Button
+            isExternal
+						as={Link}
+						className="text-sm font-normal text-default-600 bg-default-100"
+						href={siteConfig.links.funnel}
+						startContent={<FaUserCheck className="text-primary" />}
+						variant="flat"
+					>
+						Sign Up
+					</Button>
+				</NavbarItem>
 				<NavbarItem className="hidden md:flex">
 					<Button
             isExternal
 						as={Link}
 						className="text-sm font-normal text-default-600 bg-default-100"
 						href={siteConfig.links.sponsor}
-						startContent={<HeartFilledIcon className="text-danger" />}
+						startContent={<FaTree className="text-success" />}
 						variant="flat"
 					>
-						Sponsor
+						Investor
 					</Button>
 				</NavbarItem>
 			</NavbarContent>
