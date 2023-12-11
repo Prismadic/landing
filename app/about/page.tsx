@@ -69,7 +69,7 @@ export default function AboutPage() {
 									</Button>
 									<Button
 										isIconOnly
-										className="w-auto h-auto data-[hover]:bg-foreground/10"
+										className="data-[hover]:bg-foreground/10"
 										radius="full"
 										variant="light"
 										onClick={() => openInNewTab("https://twitter.com/alloy2077")}
