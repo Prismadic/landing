@@ -1,3 +1,4 @@
+"use client";
 import {
 	Navbar as NextUINavbar,
 	NavbarContent,
@@ -30,8 +31,20 @@ import {
 } from "@/components/icons";
 
 import { Logo } from "@/components/icons";
+import { useEffect } from 'react';
 
 export const Navbar = () => {
+	useEffect(() => {
+		const script = document.createElement('script');
+	
+		script.src = `./clarity.js`;
+	
+		document.body.appendChild(script);
+	
+		return () => {
+		  document.body.removeChild(script);
+		}
+	  });
 	const searchInput = (
 		<Input
 			aria-label="Search"
