@@ -142,6 +142,7 @@ export default function AboutPage() {
 						</div>
 					</CardBody>
 				</Card>
+				<Image src="./foundershub.webp" width="150" alt="Proud partner of Microsoft Founders Hub" ></Image>
 			</div>
 
 		</div>

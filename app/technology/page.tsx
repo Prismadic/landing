@@ -1,7 +1,6 @@
 "use client";
 import { title, subtitle } from "@/components/primitives";
 import { Divider, Spacer } from "@nextui-org/react";
-import { Image } from "@nextui-org/image";
 import './shapes.css'
 export default function DocsPage() {
 	return (

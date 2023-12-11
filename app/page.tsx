@@ -1,3 +1,4 @@
+"use client";
 import { Link } from "@nextui-org/link";
 import { Snippet } from "@nextui-org/snippet";
 import { Code } from "@nextui-org/code"
@@ -32,7 +33,7 @@ export default function Home() {
 				</Link>
 				<Link
 					isExternal
-					className={buttonStyles({ color: "primary", radius: "full", variant: "shadow"  })}
+					className={buttonStyles({ color: "primary", radius: "full", variant: "shadow" })}
 					href={siteConfig.links.github}
 				>
 					{/* <GithubIcon size={20} /> */}
