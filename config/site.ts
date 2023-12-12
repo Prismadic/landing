@@ -32,11 +32,11 @@ export const siteConfig = {
 		},
 		{
 			label: "Technology",
-			href: "/technology",
+			href: "/technology#",
 		},
 		{
 			label: "Developers",
-			href: "/developers",
+			href: "/developers#",
 		},
 		{
 			label: "Blog",
@@ -44,7 +44,7 @@ export const siteConfig = {
 		},
 		{
 			label: "About",
-			href: "/about",
+			href: "/about#",
 		}
 	],
 	links: {
