@@ -482,7 +482,9 @@ export default function DocsPage() {
 				</div>
 					<h1 className={title()}>Technology</h1>
 					<h2 className={subtitle()}>AI is improving faster than liquidity is allocated.</h2>
+					<Divider className="my-4" />
 					<small>
+						<Spacer x={8} />
 						Before &quot;Attention Is All You Need&quot; - Digits was founded.
 						<Spacer x={4} />
 						Large volumes of financial headlines were used with a classifier to associate news & Fed rates with outcomes in US equities.
@@ -501,7 +503,6 @@ export default function DocsPage() {
 					<h1 className={title()}>and it works.</h1>
 				</div>
 				<Divider className="my-4" />
-				{/* <Image src="./graphtheory.png" alt="matrices are graphs" ></Image> */}
 			</div>
 			<div>01
 
