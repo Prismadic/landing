@@ -482,8 +482,6 @@ export default function DocsPage() {
 				</div>
 					<h1 className={title()}>Technology</h1>
 					<h2 className={subtitle()}>AI is improving faster than liquidity is allocated.</h2>
-					<Divider className="my-4" />
-					
 					<small>
 						Before &quot;Attention Is All You Need&quot; - Digits was founded.
 						<Spacer x={4} />
