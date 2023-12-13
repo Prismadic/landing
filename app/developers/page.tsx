@@ -13,17 +13,17 @@ export default function DevelopersPage() {
 						Prismadic supports open source software (OSS). 
 					</small>
 					<Divider className="my-4" />
-					<Link isBlock showAnchorIcon href="#" color="foreground">
-						GitHub
+					<Link isExternal isBlock showAnchorIcon href="https://github.com/Prismadic" color="foreground">
+						Source code
 					</Link>
-					<Link isBlock showAnchorIcon href="#" color="primary">
-						Docs
+					<Link isExternal isBlock showAnchorIcon href="https://github.com/Prismadic" color="primary">
+						API Docs
 					</Link>
-					<Link isBlock showAnchorIcon href="#" color="secondary">
-						API
+					<Link isExternal isBlock showAnchorIcon href="https://www.linkedin.com/company/prismadic/" color="secondary">
+						Hiring
 					</Link>
-					<Link isBlock showAnchorIcon href="#" color="success">
-						Access
+					<Link isExternal isBlock showAnchorIcon href="https://huggingface.co/prismadic" color="success">
+						Models
 					</Link>
 				</div>
 				<Divider className="my-4" />
