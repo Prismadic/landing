@@ -142,9 +142,67 @@ export default function AboutPage() {
 						</div>
 					</CardBody>
 				</Card>
+				<Divider className="my-4" />
+				<Card
+					isBlurred
+					className="border-none bg-background/60 dark:bg-default-100/50 max-w-[610px]"
+					shadow="sm"
+				>
+					<CardBody>
+						<div className="grid grid-cols-6 md:grid-cols-12 gap-6 md:gap-4 items-center justify-center">
+							<div className="relative col-span-6 md:col-span-4">
+								<Image
+									alt="Album cover"
+									className="object-cover"
+									height={200}
+									shadow="md"
+									src="/alexander.png"
+									width="100%"
+								/>
+							</div>
+
+							<div className="flex flex-col col-span-6 md:col-span-8">
+								<div className="flex justify-between items-start">
+									<div className="flex flex-col gap-0">
+										<h3 className="font-semibold text-foreground/90">Alexander Ogle</h3>
+										<p className="text-small text-foreground/80">Co-Founder Fellow</p>
+										<h1 className="text-large font-medium mt-2">Physics, Engineering</h1>
+									</div>
+								</div>
+
+								<div className="flex flex-col mt-3 gap-1">
+									<p>6 years systems engineering for autonomous systems</p>
+									<div className="flex justify-between">
+										<p className="text-small text-foreground/50">alexander@prismadic.ai</p>
+									</div>
+								</div>
+
+								<div className="flex w-full items-center justify-center">
+									<Button
+										isIconOnly
+										className="data-[hover]:bg-foreground/10"
+										radius="full"
+										variant="light"
+										onClick={() => openInNewTab("https://github.com/psybergothic")}
+									>
+										<FaGithubAlt size={20} />
+									</Button>
+									<Button
+										isIconOnly
+										className="data-[hover]:bg-foreground/10"
+										radius="full"
+										variant="light"
+										onClick={() => openInNewTab("https://alexanderogle.com")}
+									>
+										<FaCode size={20} />
+									</Button>
+								</div>
+							</div>
+						</div>
+					</CardBody>
+				</Card>
 				<Image src="./foundershub.webp" width="150" alt="Proud partner of Microsoft Founders Hub" ></Image>
 			</div>
-
 		</div>
 	);
 }
