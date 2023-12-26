@@ -26,7 +26,6 @@ import {
 	TwitterIcon,
 	GithubIcon,
 	DiscordIcon,
-	HeartFilledIcon,
 	SearchIcon,
 } from "@/components/icons";
 
@@ -151,14 +150,8 @@ export const Navbar = () => {
 					{siteConfig.navMenuItems.map((item, index) => (
 						<NavbarMenuItem key={`${item}-${index}`}>
 							<Link
-								color={
-									index === 2
-										? "primary"
-										: index === siteConfig.navMenuItems.length - 1
-										? "danger"
-										: "foreground"
-								}
-								href="#"
+								color="secondary"
+								href={item.href}
 								size="lg"
 							>
 								{item.label}
