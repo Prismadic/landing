@@ -6,6 +6,7 @@ import { fontSans } from "@/config/fonts";
 import { Providers } from "./providers";
 import { Navbar } from "@/components/navbar";
 import { PrivacyPolicy } from "@/components/policy";
+import PrismadicCircle from "@/components/prismadic/circle";
 
 import clsx from "clsx";
 
@@ -38,10 +39,10 @@ export default function RootLayout(
 			<head />
 			<body
 				className={clsx(
-					"min-h-screen bg-background font-sans antialiased",
+					"min-h-screen font-sans antialiased",
 					fontSans.variable
 				)}
-			>
+			><PrismadicCircle/>
 				<Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
 					<div className="relative flex flex-col h-screen">
 						<Navbar />
