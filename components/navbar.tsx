@@ -114,18 +114,6 @@ export const Navbar = () => {
             isExternal
 						as={Link}
 						className="text-sm font-normal text-default-600 bg-default-100"
-						href={siteConfig.links.funnel}
-						startContent={<FaUserCheck className="text-primary" />}
-						variant="flat"
-					>
-						Sign Up
-					</Button>
-				</NavbarItem>
-				<NavbarItem className="hidden md:flex">
-					<Button
-            isExternal
-						as={Link}
-						className="text-sm font-normal text-default-600 bg-default-100"
 						href={siteConfig.links.sponsor}
 						startContent={<FaTree className="text-success" />}
 						variant="flat"
