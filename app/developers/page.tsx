@@ -1,5 +1,5 @@
 import { title } from "@/components/primitives";
-import { Divider, Link, Image, Button, Tooltip } from "@nextui-org/react";
+import { Divider, Link, Image, Button, Popover, PopoverTrigger, PopoverContent } from "@nextui-org/react";
 
 export default function DevelopersPage() {
 	return (
@@ -16,19 +16,19 @@ export default function DevelopersPage() {
 					<Link isExternal isBlock showAnchorIcon href="https://github.com/Prismadic" color="foreground">
 						Source code
 					</Link>
-					<Tooltip
-						placement="bottom"
-						content={
+					<Popover key="bottom" placement="bottom">
+						<PopoverTrigger>
+							<Button variant="bordered">
+								API Docs
+							</Button>
+						</PopoverTrigger>
+						<PopoverContent>
 							<div className="px-1 py-2">
 								<div className="text-small font-bold">Projects</div>
 								<div className="text-tiny"><Link isExternal isBlock showAnchorIcon color="danger" href="https://prismadic.github.io/magnet/">magnet</Link> <Link isExternal isBlock showAnchorIcon href="https://prismadic.github.io/tractor-beam/" color="warning">tractor-beam</Link> <Link isExternal isBlock showAnchorIcon color="primary" href="https://prismadic.github.io/hygiene/">hygiene</Link></div>
 							</div>
-						}
-					>
-						<Button variant="bordered">
-							API Docs
-						</Button>
-					</Tooltip>
+						</PopoverContent>
+					</Popover>
 					<Link isExternal isBlock showAnchorIcon href="https://www.linkedin.com/company/prismadic/" color="secondary">
 						Hiring
 					</Link>
