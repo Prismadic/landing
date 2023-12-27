@@ -1,7 +1,6 @@
 "use client";
 import { Link } from "@nextui-org/link";
 import { Snippet } from "@nextui-org/snippet";
-import { Code } from "@nextui-org/code"
 import { button as buttonStyles } from "@nextui-org/theme";
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
@@ -25,27 +24,13 @@ export default function Home() {
 			</div>
 
 			<div className="flex gap-3">
-				<Link
-					isExternal
-					href={siteConfig.links.docs}
-					className={buttonStyles({ color: "danger", radius: "full", variant: "shadow" })}
-				>
-					Red
-				</Link>
-				<Link
-					isExternal
-					className={buttonStyles({ color: "primary", radius: "full", variant: "shadow" })}
-					href={siteConfig.links.github}
-				>
-					{/* <GithubIcon size={20} /> */}
-					Blue
-				</Link>
+				
 			</div>
 
 			<div className="mt-8">
 				<Snippet hideSymbol hideCopyButton variant="flat">
 					<span>
-						follow the <Code color="primary">🐇</Code>
+						subscribe on <Link href="https://prismadic.substack.com">substack</Link>
 					</span>
 				</Snippet>
 			</div>
