@@ -51,8 +51,8 @@ export const siteConfig = {
 		github: "https://github.com/Prismadic",
 		twitter: "https://twitter.com/Prismadic",
 		docs: "https://prismadic.ai/developers",
-		discord: "#",
+		discord: "https://discord.com/servers/prismadic-1221911512239833098",
 		sponsor: "#",
-		funnel: "https://dgtsapp.com"
+		funnel: "https://digits.prismadic.ai"
 	},
 };
