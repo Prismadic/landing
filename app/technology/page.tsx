@@ -480,16 +480,16 @@ export default function DocsPage() {
 						</div>
 					</div>
 				</div>
-				<h1 className={title()}>Prismadic: The Nexus of Data and Prediction</h1>
+				<h1 className={title()}>The Nexus of Data and Prediction</h1>
 				<h2 className={subtitle()}>Where Scalability Meets the Infinite</h2>
 				<Divider className="my-4" />
 				<small>
 				<Spacer x={8} />
-				In the vast data sprawl, Prismadic stands solitary—a beacon of computation, transcending the now. Our dominion: complex, real-time data correlations. Our arsenal: an AI framework, wrought from the depths of our own tech forge, now shared with the world as open code.
+				In the vast data sprawl, Prismadic stands solitary—a beacon of computation, transcending the now. Our dominion: complex, real-time data. Our arsenal: an AI framework, wrought from the depths of our own forge, now shared with the world.
 				<Spacer x={4} />
-				This framework, born of necessity, thrives in the endless expanse of data and computation. It is the bedrock upon which we build—scalable, relentless, unforgiving in its precision.
+				This framework, born of necessity, thrives in the endless expanse of data and compute. It is the bedrock upon which we build—scalable, relentless, unforgiving in its precision.
 				<Spacer x={4} />
-				In this realm, data bends to our will, yielding predictions with a precision that borders the uncanny. Our distributed compute architecture, a lattice of infinite scale, ensures dominance over the chaos of information.
+				In this realm, data bends to your will, yielding predictions with a precision that borders the uncanny. Our distributed compute architecture, a lattice of infinite scale, ensures dominance over the chaos of information.
 				<Spacer x={8} />
 				</small>
 				<p>
