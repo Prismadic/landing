@@ -52,7 +52,7 @@ export const siteConfig = {
 		twitter: "https://twitter.com/Prismadic",
 		docs: "https://prismadic.ai/developers",
 		discord: "https://discord.com/servers/prismadic-1221911512239833098",
-		// sponsor: "#",
+		sponsor: "#",
 		funnel: "https://digits.prismadic.ai"
 	},
 };
