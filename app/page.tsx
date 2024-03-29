@@ -33,6 +33,11 @@ export default function Home() {
 						subscribe on <Link href="https://prismadic.substack.com">substack</Link>
 					</span>
 				</Snippet>
+				<Snippet hideSymbol hideCopyButton variant="flat">
+					<span>
+						join the <Link href="https://discord.gg/prismadicai">discord</Link>
+					</span>
+				</Snippet>
 			</div>
 		</section>]
 	);
