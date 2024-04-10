@@ -14,13 +14,14 @@ export default function Home() {
 				<h1 className={title({ color: "violet" })}>intelligence&nbsp;</h1>
 				<br />
 				<h1 className={title()}>
-					creates wealth for <i>everyone</i>.
+					creates <u>meaning</u> for <i>everyone</i>.
 				</h1>
 				<h2 className={subtitle({ class: "mt-4" })}>
-					Precision pattern recognition.<br></br>
-					Cognitive data sifting.<br></br>
-					<b>Predictive breakthroughs.</b>
+					Decentralized data acquisition.<br></br>
+					100% distributed computing on any platform.<br></br>
+					<b>Predictive breakthroughs from wherever light can escape.</b>
 				</h2>
+
 			</div>
 
 			<div className="flex gap-3">
