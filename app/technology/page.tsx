@@ -480,27 +480,29 @@ export default function DocsPage() {
 						</div>
 					</div>
 				</div>
-					<h1 className={title()}>Technology</h1>
-					<h2 className={subtitle()}>AI is improving faster than liquidity is allocated.</h2>
-					<Divider className="my-4" />
-					<small>
-						<Spacer x={8} />
-						Before &quot;Attention Is All You Need&quot; - Digits was founded.
-						<Spacer x={4} />
-						Large volumes of financial headlines were used with a classifier to associate news & Fed rates with outcomes in US equities.
-						<Spacer x={4} />
-						We used high-quality discussion from industry experts to parameterize and train SVM, LSTM models on community success and failure.
-						<Spacer x={8} />
-					</small>
-					<p>
-						Now, we believe modern transformer architectures enable us to take inspiration from quantum probability theory.
-						<Spacer x={8} />
-						By factorizing large representations of events embedded by language models, we&apos;re making predictions about hyperspace.
-						<Spacer x={12} />
-					</p>
-					<h2 className={subtitle()}>we let transformers inform our understanding of futures markets with non-speculative precision.</h2>
-					<Spacer x={8} />
-					<h1 className={title()}>and it works.</h1>
+				<h1 className={title()}>The Nexus of Data and Prediction</h1>
+				<h2 className={subtitle()}>Where Scalability Meets the Infinite</h2>
+				<Divider className="my-4" />
+				<small>
+				<Spacer x={8} />
+				In the vast data sprawl, Prismadic stands solitary—a beacon of computation, transcending the now. Our dominion: complex, real-time data. Our arsenal: an AI framework, wrought from the depths of our own forge, now shared with the world.
+				<Spacer x={4} />
+				This framework, born of necessity, thrives in the endless expanse of data and compute. It is the bedrock upon which we build—scalable, relentless, unforgiving in its precision.
+				<Spacer x={4} />
+				In this realm, data bends to your will, yielding predictions with a precision that borders the uncanny. Our distributed compute architecture, a lattice of infinite scale, ensures dominance over the chaos of information.
+				<Spacer x={8} />
+				</small>
+				<p>
+				Enter <a href="https://digits.prismadic.ai/">Digits</a>: our first sentinel in the new order of AI. Crafted from the core of our pioneering technology, it serves as a herald of our capabilities. Within this framework, Digits commands the vast datascape, mining insights where others see obfuscation.
+				<Spacer x={8} />
+				A testament to our vision, Digits is but the vanguard of our assault on the unknown, charting a course through the maelstrom of global data with a stoic resolve.
+				<Spacer x={12} />
+				</p>
+				<h2 className={subtitle()}>In the Silence of Data, Our AI Speaks</h2>
+				<Spacer x={8} />
+				<h1 className={title()}>The Future Is Not Set. There Is No Fate But What We Build.</h1>
+
+
 				</div>
 				<Divider className="my-4" />
 			</div>
